@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+  
+
+.logIn{
+    width: 600px;
+    height: 350px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+  }
+  .logIn input{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid lightblue;
+    background-color: transparent;
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+  }
+  .logIn input:focus{
+    outline: none;
+  }
+  .logIn button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 15px;
+  }
+  .logIn button:hover{
+    cursor: pointer;
+    background-color: blue;
+  }
